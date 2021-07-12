@@ -10,6 +10,5 @@ btn.addEventListener('click', () => {
     let randNum = Math.floor(Math.random() * 53 ) + 1
     if(nums.indexOf(randNum) === -1) nums.push(randNum);
   }
-  console.log(nums);
   numsP.textContent = nums.join(' ');
 });
